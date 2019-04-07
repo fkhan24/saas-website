@@ -1,7 +1,47 @@
-@media only screen width; 38em {
+html {
+  font-family: "Roboto Sans", sans-serif;
+}
 
-  .circuit-icon {
-    width: 50%;
-  }
+header {
+  position: relative;
+  text-align: center;
+  background-color: #7ea1c9;
+}
+
+body {
+  margin: 0;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.btn {
+  background-color: #15468f;
+  color: #fff;
+  border-color: #15468f;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  max-height: 24rem;
+}
+
+.banner-content {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+@media only screen and (min-width: 38em) {
+
+ .img-flex {
+   width: 50%;
+ }
 
 }

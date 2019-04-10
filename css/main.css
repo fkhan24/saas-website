@@ -55,17 +55,13 @@ main {
   background-color: #fff;
 }
 
-.box {
-  background-color: #e2e2e2;
-  border-style: solid;
-  border-radius: 20px;
-  border-color: #fff;
-  margin-top: 2em;
+.card {
   /*setting alpha = 0.1*/
   background-color: rgba(31, 198, 251, 0.3);
+  position: relative;
 }
 
-.card {
+.box {
   background-color: #e2e2e2;
   border-style: solid;
   border-radius: 20px;

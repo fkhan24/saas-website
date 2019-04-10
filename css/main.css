@@ -13,11 +13,11 @@ header, footer {
 }
 a {
   color: #fff;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
-.logo, .img {
-  max-width: 200px;
+a:hover {
+  color: #1fc6fb;
 }
 
 .bloop {
@@ -46,29 +46,44 @@ a {
   max-height: 24rem;
 }
 
-.banner-content {
-  color: #fff;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+textarea, input, select {
+  border-radius: 10px;
+  border-color: #fff;
 }
 
-}
 main {
   background-color: #fff;
 }
 
-section {
+.box {
   background-color: #e2e2e2;
   border-style: solid;
   border-radius: 20px;
-  border-color: #e2e2e2;
+  border-color: #fff;
   margin-top: 2em;
+  /*setting alpha = 0.1*/
+  background-color: rgba(31, 198, 251, 0.3);
+}
+
+.card {
+  background-color: #e2e2e2;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #fff;
+  margin-top: 2em;
+  /*setting alpha = 0.1*/
+  background-color: rgba(31, 198, 251, 0.3);
 }
 
 .banner-simple {
   background-image: url("../images/city.jpg");
+  background-size: 100% 100%, cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.banner-simple-2 {
+  background-image: url("../images/keyboard.jpg");
   background-size: 100% 100%, cover;
   background-position: center center;
   background-repeat: no-repeat;

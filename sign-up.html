@@ -31,7 +31,7 @@
     <div class="unit xs-1 s-1 m-2-3 l-3-4">
       <nav class="nav pad-t-1-4" id="nav" tabindex="0" role="navigation">
         <ul class="naav list-group-inline kilo text-center push-0">
-          <li><a class="btn bloop ib gutter-1-4" href="tour.html"><span>Products</span></a></li>
+          <li><a class="btn bloop ib gutter-1-4" href="tour.html"><span>Product</span></a></li>
           <li><a class="btn bloop ib gutter-1-4" href="pricing.html"><span>Pricing</span></a></li>
           <li><a class="btn bloop ib gutter-1-4" href="sign-up.html"><span>Sign Up</span></a></li>
         </ul>
@@ -39,13 +39,13 @@
     </div>
   </header>
 
-  <section class="max-length island push">
+  <section class="box max-length island push">
     <div class="pad-t pad-b gutter">
-      <h2 class="not-bold push">Take the next step and start connecting!</h1>
+      <h2 class="bold yotta push">Take the next step and start connecting!</h1>
 
       <form method="POST" action="https://formspree.io/khan0355@algonquinlive.com">
         <fieldset class="push-none">
-          <legend class="push italic bold mega">Personal details</legend>
+          <legend class="push italic bold mega">Personal info</legend>
           <div class="grid">
             <div class="island-1-8 unit xs-1 m-1 l-1-2 push">
               <label class="kilo" for="first-name">First Name</label>
@@ -73,23 +73,19 @@
           <legend class="push italic bold mega">Address</legend>
           <div class="grid">
             <div class="push island-1-8 unit xs-1 m-1 l-1-2">
-              <label class="kilo" for="address">Address Line 1</label>
-              <input id="address" type="text" name="address" required>
-            </div>
-            <div class="push island-1-8 unit xs-1 m-1 l-1-2">
-              <label class="kilo" for="address">Address Line 2</label>
+              <label class="kilo" for="address">Street Address</label>
               <input id="address" type="text" name="address" required>
             </div>
             <div class="unit island-1-8 xs-1 s-1 m-1-2 l-1-2 push">
-              <label class="kilo pad-b-1-8" for="city">City</label>
+              <label class="kilo" for="city">City</label>
               <input id="city" type="text" required>
             </div>
             <div class="unit island-1-8 xs-1 s-1 m-1-2 l-1-2 push">
-              <label class="kilo pad-b-1-8" for="postal">Postal Code</label>
+              <label class="kilo" for="postal">Postal Code</label>
               <input id="postal" type="text" required>
             </div>
             <div class="unit island-1-8 xs-1 m-1 l-1-2 push">
-              <label class="kilo pad-b-1-8" for="subject">Province</label>
+              <label class="kilo" for="subject">Province</label>
               <select class="special" id="province">
                 <option>Alberta</option>
                 <option>British Columbia</option>
@@ -106,11 +102,23 @@
                 <option>Yukon</option>
               </select>
             </div>
+            <div class="push island-1-8 unit xs-1 m-1 l-1">
+              <label class="kilo" for="details">Share a little about your business!</label>
+              <textarea id="details" name="message" required></textarea>
+            </div>
           </div>
         </fieldset>
-        <div class="button">
+        <div class="button text-center">
           <a class="btn kilo push-t" href="sign-up.html">Register!</a>
         </div>
       </form>
 
   </section>
+
+  <footer class="footer foot milli text-center pad-t pad-b" role="contentinfo">
+    <a href="index.html">Terms and Conditions</a>
+    <p class="text-center">Copyright © 2019 Circuit.com</p>
+  </footer>
+
+</body>
+</html>

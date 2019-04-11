@@ -1,5 +1,5 @@
 html {
-  font-family: "Nunito", sans-serif;
+  font-family: Nunito, sans-serif;
 }
 
 header, footer {
@@ -87,6 +87,14 @@ main {
 
 .quote {
   max-width: 100%;
+}
+
+.embed-fatima {
+  padding-top: 50%;
+}
+
+th, td {
+  border-bottom: 1px;
 }
 
 @media only screen and (min-width: 38em) {

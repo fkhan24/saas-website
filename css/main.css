@@ -11,6 +11,7 @@ header, footer {
 .foot {
   color: #fff;
 }
+
 a {
   color: #fff;
   text-decoration: none;
@@ -30,7 +31,6 @@ a:hover {
   color: #fff;
   border-color: #15468f;
   border-radius: 8px;
-
 }
 
 .btn:hover {
@@ -56,29 +56,26 @@ main {
 }
 
 .card {
-  /*setting alpha = 0.1*/
-  background-color: rgba(31, 198, 251, 0.3);
+  background-color: rgba(31, 198, 251, .3);
   position: relative;
 }
 
 .box {
-  background-color: #e2e2e2;
   border-style: solid;
   border-radius: 20px;
   border-color: #fff;
   margin-top: 2em;
-  /*setting alpha = 0.1*/
-  background-color: rgba(31, 198, 251, 0.3);
+  background-color: rgba(31, 198, 251, .3);
 }
 
-.banner-simple {
+.banner-one {
   background-image: url("../images/city.jpg");
   background-size: 100% 100%, cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
-.banner-simple-2 {
+.banner-two {
   background-image: url("../images/keyboard.jpg");
   background-size: 100% 100%, cover;
   background-position: center center;
@@ -89,14 +86,19 @@ main {
   color: #fff;
 }
 
+.quote {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 @media only screen and (min-width: 38em) {
 
- .img-flex {
-   width: 50%;
- }
+  .img-flex {
+    width: 50%;
+  }
 
- .naav {
-   text-align: right;
- }
+  .naav {
+    text-align: right;
+  }
 
 }

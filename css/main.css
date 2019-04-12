@@ -78,7 +78,7 @@ main {
   border-style: solid;
   border-radius: 20px;
   border-color: #fff;
-  background-color: rgba(133, 68, 215, 0.3);
+  background-color: rgba(133, 68, 215, .3);
 }
 
 .banner-one {
